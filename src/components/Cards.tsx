@@ -22,7 +22,7 @@ const cards = [
       "Система непрерывного контроля экологических показателей на объектах добычи и переработки.",
     href: "http://rent.kyrgyzaltyn.kg/login",
     badge: "Экология",
-    image: "./logo.png", // public/eco-monitoring.jpg
+    image: "./ka_logo.png", // public/eco-monitoring.jpg
     delay: 0.5,
     category: "Экология",
   },
@@ -32,7 +32,7 @@ const cards = [
       "Программа поддержки местных сообществ и развития инфраструктуры в регионах присутствия.",
     href: "http://kampa.kyrgyzaltyn.kg/dashboard",
     badge: "Социальный",
-    image: "./logo.png", // public/social-development.jpg
+    image: "./ka_logo.png", // public/social-development.jpg
     delay: 1,
     category: "Социальные проекты",
   },
@@ -42,7 +42,7 @@ const cards = [
       "Проект по внедрению современного оборудования и технологий для повышения эффективности добычи.",
     href: "http://report.kyrgyzaltyn.kg/",
     badge: "Технологии",
-    image: "./logo.png", // public/modernization.jpg
+    image: "./ka_logo.png", // public/modernization.jpg
     delay: 0,
     category: "Производство",
   },
@@ -52,7 +52,7 @@ const cards = [
       "Проект освоения золоторудного месторождения с применением инновационных технологий добычи.",
     href: "https://vzmorie-2j2w.vercel.app/",
     badge: "Добыча",
-    image: "./logo.png", // public/gold-mining.jpg
+    image: "./ka_logo.png", // public/gold-mining.jpg
     delay: 0.5,
     category: "Добыча",
   },
