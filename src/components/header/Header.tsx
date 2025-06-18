@@ -16,12 +16,6 @@ export default function Header() {
           <img src="/logo.png" alt="Kyrgyzaltyn Logo" className="logo-image" />
         </div>
 
-        <div className="menu-toggle" onClick={() => setIsMenuOpen(!isMenuOpen)}>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-
         <nav className={`main-nav ${isMenuOpen ? "open" : ""}`}>
           {/* <div className="language-selector">
             <button

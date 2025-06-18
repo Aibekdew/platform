@@ -53,41 +53,6 @@ export default function HomePage() {
               Инновационные проекты и технологические решения для устойчивого
               будущего
             </p>
-            <div className="hero-stats">
-              <div className="hero-stat">
-                <span className="stat-number">50+</span>
-                <span
-                  style={{
-                    color: "white",
-                  }}
-                  className="stat-label"
-                >
-                  лет опыта
-                </span>
-              </div>
-              <div className="hero-stat">
-                <span className="stat-number">5000+</span>
-                <span
-                  style={{
-                    color: "white",
-                  }}
-                  className="stat-label"
-                >
-                  сотрудников
-                </span>
-              </div>
-              <div className="hero-stat">
-                <span className="stat-number">10+</span>
-                <span
-                  style={{
-                    color: "white",
-                  }}
-                  className="stat-label"
-                >
-                  активных проектов
-                </span>
-              </div>
-            </div>
           </div>
         </section>
 
