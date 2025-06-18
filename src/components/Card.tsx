@@ -119,7 +119,7 @@ export default function Card({
             (e.currentTarget as HTMLAnchorElement).style.color = "white";
           }}
         >
-          Войти
+          Перейти
         </a>
       </div>
     </div>
