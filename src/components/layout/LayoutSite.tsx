@@ -1,16 +1,18 @@
-import { FC, ReactNode } from "react";
-import scss from "./LayoutSite.module.scss";
-import Header from "../header/Header";
+import "./globals.scss";
+import { geistSans, geistMono } from "@/lib/fonts"; // шрифты
+import LayoutSite from "@/components/layout/LayoutSite"; // ваш компонент
 
-interface LayoutProps {
-  children: ReactNode;
-}
-const LayoutSite: FC<LayoutProps> = ({ children }) => {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
-    <div className={scss.LayoutSite}>
-      <Header />
-      <main className={scss.children}>{children}</main>
-    </div>
+    <html lang="ru" className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body className="antialiased">
+        {/* теперь Header и контейнер идут отсюда */}
+        <LayoutSite>{children}</LayoutSite>
+      </body>
+    </html>
   );
-};
-export default LayoutSite;
+}
